@@ -1,4 +1,4 @@
-name: Build GhostBoost 1.7.10
+name: Build GhostBoost 1.7.10 Beta 1.5
 
 on:
   push:
@@ -29,5 +29,5 @@ jobs:
       - name: Upload JAR
         uses: actions/upload-artifact@v4
         with:
-          name: GhostBoost-1.7.10-Beta-1.0
+          name: GhostBoost-1.7.10-Beta-1.5
           path: build/libs/*.jar
